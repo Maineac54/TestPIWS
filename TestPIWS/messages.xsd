@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="https://steas.ecstestlab.loc/PITimeSeries.svc" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="https://steas.ecstestlab.loc/PITimeSeries.svc">
+	<xs:element name="GetPISnapshotData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="timeSeries" type="tns:TimeSeries" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="TimeSeries" >
+		<xs:sequence>
+			<xs:element name="timedValues" type="tns:TimedValues" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TimedValues" >
+		<xs:sequence>
+			<xs:element name="timedValue" type="tns:TimedValue" />
+		</xs:sequence>
+		<xs:attribute name="Path" type="xs:string" default="pi:\\\\server\\tagname" />
+		<xs:attribute name="UOM" type="xs:string" default="ea" />
+		<xs:attribute name="DataType" type="xs:string" default="String" />
+	</xs:complexType>
+	<xs:complexType name="TimedValue" >
+		<xs:attribute name="Time" type="xs:dateTime" />
+		<xs:attribute name="Value" type="xs:string" />
+		<xs:attribute name="Status" type="xs:string" />
+	</xs:complexType>
+</xs:schema>

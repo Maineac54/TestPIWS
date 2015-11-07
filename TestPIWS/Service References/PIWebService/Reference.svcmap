@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4df3dcbd-28d3-46c4-94ed-5ecf583746da" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://steas.ecstestlab.loc/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PITimeSeries.disco" MetadataType="Disco" ID="3ec28b1b-4efd-482d-963e-88b141cb08a8" SourceId="1" SourceUrl="http://stcsiis2.ecstestlab.loc/PITimeSeries.svc?disco" />
+    <MetadataFile FileName="PITimeSeriesService.wsdl" MetadataType="Wsdl" ID="cfa8f61f-615a-4e30-8d6e-ad1fac285e51" SourceId="1" SourceUrl="http://stcsiis2.ecstestlab.loc/PITimeSeries.svc?wsdl" />
+    <MetadataFile FileName="PITimeSeries.xsd" MetadataType="Schema" ID="e15f2dd5-b64b-4d14-a1a3-26e63d8d7bef" SourceId="1" SourceUrl="http://stcsiis2.ecstestlab.loc/PITimeSeries.svc?xsd=xsd1" />
+    <MetadataFile FileName="PITimeSeries1.xsd" MetadataType="Schema" ID="7a444d07-f6f2-47e9-b2d5-773f37a21ea4" SourceId="1" SourceUrl="http://stcsiis2.ecstestlab.loc/PITimeSeries.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

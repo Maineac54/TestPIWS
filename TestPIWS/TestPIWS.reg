@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\TestPIWS.SchemaValidationBehaviorExtensionElement]
+@="TestPIWS.SchemaValidationBehaviorExtensionElement"
+
+[HKEY_CLASSES_ROOT\TestPIWS.SchemaValidationBehaviorExtensionElement\CLSID]
+@="{a2acc4d6-e539-47a2-8021-1b20c2371e19}"
