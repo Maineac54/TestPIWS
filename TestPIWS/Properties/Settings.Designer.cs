@@ -13,7 +13,7 @@ namespace TestPIWS.Properties {
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+    public sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
         
@@ -23,18 +23,21 @@ namespace TestPIWS.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("MyPIServer")]
         public string PIServerName {
             get {
                 return ((string)(this["PIServerName"]));
             }
+            set {
+                this["PIServerName"] = value;
+            }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("CDT158")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SINUSOID")]
         public string SnapShotTag {
             get {
                 return ((string)(this["SnapShotTag"]));
@@ -46,7 +49,7 @@ namespace TestPIWS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("SINUSOIDU")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SINUSOID")]
         public string DateRangeTag {
             get {
                 return ((string)(this["DateRangeTag"]));
@@ -58,7 +61,7 @@ namespace TestPIWS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("CDT158")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SINUSOID")]
         public string SampledTag {
             get {
                 return ((string)(this["SampledTag"]));

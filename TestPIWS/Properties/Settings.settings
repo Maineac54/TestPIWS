@@ -2,17 +2,17 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TestPIWS.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="PIServerName" Type="System.String" Scope="Application">
+    <Setting Name="PIServerName" Type="System.String" Scope="User">
       <Value Profile="(Default)">MyPIServer</Value>
     </Setting>
     <Setting Name="SnapShotTag" Type="System.String" Scope="User">
-      <Value Profile="(Default)">CDT158</Value>
+      <Value Profile="(Default)">SINUSOID</Value>
     </Setting>
     <Setting Name="DateRangeTag" Type="System.String" Scope="User">
-      <Value Profile="(Default)">SINUSOIDU</Value>
+      <Value Profile="(Default)">SINUSOID</Value>
     </Setting>
     <Setting Name="SampledTag" Type="System.String" Scope="User">
-      <Value Profile="(Default)">CDT158</Value>
+      <Value Profile="(Default)">SINUSOID</Value>
     </Setting>
     <Setting Name="WriteTag" Type="System.String" Scope="User">
       <Value Profile="(Default)">SINUSOID</Value>

@@ -35,4 +35,3 @@ C:\Users\dfairc\Documents\GitHub\TestPIWS\TestPIWS\bin\Debug\TestPIWS.pdb
 C:\Users\dfairc\Documents\GitHub\TestPIWS\TestPIWS\obj\Debug\TestPIWS.Form1.resources
 C:\Users\dfairc\Documents\GitHub\TestPIWS\TestPIWS\obj\Debug\TestPIWS.Properties.Resources.resources
 C:\Users\dfairc\Documents\GitHub\TestPIWS\TestPIWS\obj\Debug\TestPIWS.csproj.GenerateResource.Cache
-C:\Users\dfairc\Documents\GitHub\TestPIWS\TestPIWS\obj\Debug\TestPIWS.csprojResolveAssemblyReference.cache

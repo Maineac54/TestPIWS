@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPIWS", "TestPIWS\TestPIWS.csproj", "{122DB805-7C0D-45E7-A3CB-29A1BC353751}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TestPIWSetup", "TestPIWSetup\TestPIWSetup.vdproj", "{46EAFD08-9F93-4950-BD0E-B6A2D0CE3FF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +15,6 @@ Global
 		{122DB805-7C0D-45E7-A3CB-29A1BC353751}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122DB805-7C0D-45E7-A3CB-29A1BC353751}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122DB805-7C0D-45E7-A3CB-29A1BC353751}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46EAFD08-9F93-4950-BD0E-B6A2D0CE3FF8}.Debug|Any CPU.ActiveCfg = Debug
-		{46EAFD08-9F93-4950-BD0E-B6A2D0CE3FF8}.Release|Any CPU.ActiveCfg = Release
-		{46EAFD08-9F93-4950-BD0E-B6A2D0CE3FF8}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

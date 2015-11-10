@@ -350,5 +350,10 @@ namespace TestPIWS
 		}
 
 		#endregion
+
+		private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+		{
+			Properties.Settings.Default.Save();
+		}
 	}
 }

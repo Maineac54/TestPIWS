@@ -46,8 +46,8 @@
 			this.picFrom = new System.Windows.Forms.DateTimePicker();
 			this.txtCompOut = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
-			this.txtCompTag = new System.Windows.Forms.TextBox();
 			this.button3 = new System.Windows.Forms.Button();
+			this.txtCompTag = new System.Windows.Forms.TextBox();
 			this.tabSample = new System.Windows.Forms.TabPage();
 			this.cboSmplUnit = new System.Windows.Forms.ComboBox();
 			this.txtSmplIntv = new System.Windows.Forms.TextBox();
@@ -59,16 +59,16 @@
 			this.picSmplFrom = new System.Windows.Forms.DateTimePicker();
 			this.txtSmplOut = new System.Windows.Forms.TextBox();
 			this.label11 = new System.Windows.Forms.Label();
-			this.txtSmplTag = new System.Windows.Forms.TextBox();
 			this.button4 = new System.Windows.Forms.Button();
+			this.txtSmplTag = new System.Windows.Forms.TextBox();
 			this.tabWrite = new System.Windows.Forms.TabPage();
 			this.picWrite = new System.Windows.Forms.DateTimePicker();
 			this.txtWriteOut = new System.Windows.Forms.TextBox();
 			this.label12 = new System.Windows.Forms.Label();
-			this.txtWriteTag = new System.Windows.Forms.TextBox();
 			this.label13 = new System.Windows.Forms.Label();
 			this.btnWriteData = new System.Windows.Forms.Button();
 			this.txtWriteVal = new System.Windows.Forms.TextBox();
+			this.txtWriteTag = new System.Windows.Forms.TextBox();
 			this.button2 = new System.Windows.Forms.Button();
 			this.label6 = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
@@ -176,8 +176,8 @@
 			this.tabByDate.Controls.Add(this.picFrom);
 			this.tabByDate.Controls.Add(this.txtCompOut);
 			this.tabByDate.Controls.Add(this.label3);
-			this.tabByDate.Controls.Add(this.txtCompTag);
 			this.tabByDate.Controls.Add(this.button3);
+			this.tabByDate.Controls.Add(this.txtCompTag);
 			this.tabByDate.Location = new System.Drawing.Point(4, 22);
 			this.tabByDate.Name = "tabByDate";
 			this.tabByDate.Padding = new System.Windows.Forms.Padding(3);
@@ -265,15 +265,6 @@
 			this.label3.TabIndex = 18;
 			this.label3.Text = "PI Tag";
 			// 
-			// txtCompTag
-			// 
-			this.txtCompTag.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TestPIWS.Properties.Settings.Default, "DateRangeTag", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-			this.txtCompTag.Location = new System.Drawing.Point(71, 2);
-			this.txtCompTag.Name = "txtCompTag";
-			this.txtCompTag.Size = new System.Drawing.Size(132, 20);
-			this.txtCompTag.TabIndex = 17;
-			this.txtCompTag.Text = global::TestPIWS.Properties.Settings.Default.DateRangeTag;
-			// 
 			// button3
 			// 
 			this.button3.Location = new System.Drawing.Point(422, 5);
@@ -283,6 +274,15 @@
 			this.button3.Text = "Get Data";
 			this.button3.UseVisualStyleBackColor = true;
 			this.button3.Click += new System.EventHandler(this.button3_Click);
+			// 
+			// txtCompTag
+			// 
+			this.txtCompTag.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TestPIWS.Properties.Settings.Default, "DateRangeTag", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+			this.txtCompTag.Location = new System.Drawing.Point(71, 2);
+			this.txtCompTag.Name = "txtCompTag";
+			this.txtCompTag.Size = new System.Drawing.Size(132, 20);
+			this.txtCompTag.TabIndex = 17;
+			this.txtCompTag.Text = global::TestPIWS.Properties.Settings.Default.DateRangeTag;
 			// 
 			// tabSample
 			// 
@@ -296,8 +296,8 @@
 			this.tabSample.Controls.Add(this.picSmplFrom);
 			this.tabSample.Controls.Add(this.txtSmplOut);
 			this.tabSample.Controls.Add(this.label11);
-			this.tabSample.Controls.Add(this.txtSmplTag);
 			this.tabSample.Controls.Add(this.button4);
+			this.tabSample.Controls.Add(this.txtSmplTag);
 			this.tabSample.Location = new System.Drawing.Point(4, 22);
 			this.tabSample.Name = "tabSample";
 			this.tabSample.Padding = new System.Windows.Forms.Padding(3);
@@ -400,15 +400,6 @@
 			this.label11.TabIndex = 29;
 			this.label11.Text = "PI Tag";
 			// 
-			// txtSmplTag
-			// 
-			this.txtSmplTag.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TestPIWS.Properties.Settings.Default, "SampledTag", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-			this.txtSmplTag.Location = new System.Drawing.Point(70, 3);
-			this.txtSmplTag.Name = "txtSmplTag";
-			this.txtSmplTag.Size = new System.Drawing.Size(132, 20);
-			this.txtSmplTag.TabIndex = 28;
-			this.txtSmplTag.Text = global::TestPIWS.Properties.Settings.Default.SampledTag;
-			// 
 			// button4
 			// 
 			this.button4.Location = new System.Drawing.Point(421, 6);
@@ -419,15 +410,24 @@
 			this.button4.UseVisualStyleBackColor = true;
 			this.button4.Click += new System.EventHandler(this.button4_Click);
 			// 
+			// txtSmplTag
+			// 
+			this.txtSmplTag.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TestPIWS.Properties.Settings.Default, "SampledTag", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+			this.txtSmplTag.Location = new System.Drawing.Point(70, 3);
+			this.txtSmplTag.Name = "txtSmplTag";
+			this.txtSmplTag.Size = new System.Drawing.Size(132, 20);
+			this.txtSmplTag.TabIndex = 28;
+			this.txtSmplTag.Text = global::TestPIWS.Properties.Settings.Default.SampledTag;
+			// 
 			// tabWrite
 			// 
 			this.tabWrite.Controls.Add(this.picWrite);
 			this.tabWrite.Controls.Add(this.txtWriteOut);
 			this.tabWrite.Controls.Add(this.label12);
-			this.tabWrite.Controls.Add(this.txtWriteTag);
 			this.tabWrite.Controls.Add(this.label13);
 			this.tabWrite.Controls.Add(this.btnWriteData);
 			this.tabWrite.Controls.Add(this.txtWriteVal);
+			this.tabWrite.Controls.Add(this.txtWriteTag);
 			this.tabWrite.Location = new System.Drawing.Point(4, 22);
 			this.tabWrite.Name = "tabWrite";
 			this.tabWrite.Padding = new System.Windows.Forms.Padding(3);
@@ -463,15 +463,6 @@
 			this.label12.TabIndex = 18;
 			this.label12.Text = "PI Tag";
 			// 
-			// txtWriteTag
-			// 
-			this.txtWriteTag.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TestPIWS.Properties.Settings.Default, "WriteTag", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-			this.txtWriteTag.Location = new System.Drawing.Point(6, 26);
-			this.txtWriteTag.Name = "txtWriteTag";
-			this.txtWriteTag.Size = new System.Drawing.Size(244, 20);
-			this.txtWriteTag.TabIndex = 17;
-			this.txtWriteTag.Text = global::TestPIWS.Properties.Settings.Default.WriteTag;
-			// 
 			// label13
 			// 
 			this.label13.AutoSize = true;
@@ -498,6 +489,15 @@
 			this.txtWriteVal.Size = new System.Drawing.Size(134, 20);
 			this.txtWriteVal.TabIndex = 14;
 			this.txtWriteVal.Text = "250";
+			// 
+			// txtWriteTag
+			// 
+			this.txtWriteTag.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TestPIWS.Properties.Settings.Default, "WriteTag", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+			this.txtWriteTag.Location = new System.Drawing.Point(6, 26);
+			this.txtWriteTag.Name = "txtWriteTag";
+			this.txtWriteTag.Size = new System.Drawing.Size(244, 20);
+			this.txtWriteTag.TabIndex = 17;
+			this.txtWriteTag.Text = global::TestPIWS.Properties.Settings.Default.WriteTag;
 			// 
 			// button2
 			// 
@@ -542,6 +542,7 @@
 			// 
 			// txtPISrvrNm
 			// 
+			this.txtPISrvrNm.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TestPIWS.Properties.Settings.Default, "PIServerName", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
 			this.txtPISrvrNm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtPISrvrNm.Location = new System.Drawing.Point(111, 12);
 			this.txtPISrvrNm.Name = "txtPISrvrNm";
@@ -563,6 +564,7 @@
 			this.Controls.Add(this.tabControl1);
 			this.Name = "Form1";
 			this.Text = "Test PI Web Service";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
 			this.Resize += new System.EventHandler(this.Form1_Resize);
 			this.tabControl1.ResumeLayout(false);
 			this.tabSnapShot.ResumeLayout(false);
